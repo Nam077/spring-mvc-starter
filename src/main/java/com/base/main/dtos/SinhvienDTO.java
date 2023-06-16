@@ -1,4 +1,4 @@
-package com.example.demo.vos;
+package com.base.main.dtos;
 
 
 import lombok.Data;
@@ -6,9 +6,8 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-public class SinhvienQueryVO implements Serializable {
+public class SinhvienDTO implements Serializable {
     private static final long serialVersionUID = 1L;
-
     private Integer id;
 
     private String name;

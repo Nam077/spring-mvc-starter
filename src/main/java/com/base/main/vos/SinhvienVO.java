@@ -1,4 +1,4 @@
-package com.example.demo.vos;
+package com.base.main.vos;
 
 import lombok.Data;
 

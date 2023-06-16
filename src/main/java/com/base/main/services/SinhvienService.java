@@ -1,11 +1,11 @@
-package com.example.demo.services;
+package com.base.main.services;
 
-import com.example.demo.dtos.SinhvienDTO;
-import com.example.demo.models.Sinhvien;
-import com.example.demo.repositories.SinhvienRepository;
-import com.example.demo.vos.SinhvienQueryVO;
-import com.example.demo.vos.SinhvienUpdateVO;
-import com.example.demo.vos.SinhvienVO;
+import com.base.main.dtos.SinhvienDTO;
+import com.base.main.models.Sinhvien;
+import com.base.main.repositories.SinhvienRepository;
+import com.base.main.vos.SinhvienQueryVO;
+import com.base.main.vos.SinhvienUpdateVO;
+import com.base.main.vos.SinhvienVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
